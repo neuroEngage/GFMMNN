@@ -9,7 +9,7 @@ from google.api_core.exceptions import GoogleAPIError
 # ----------------------------------------------------------------------------------
 # 1. Gemini client (google‑genai)
 # ----------------------------------------------------------------------------------
-API_KEY = "AIzaSyAhiiRyjaIuEaPtpofgLRhca10p2BwxFug"
+API_KEY = "---------API KEY------------"
 if not API_KEY:
     st.stop("❌ GEMINI_API_KEY not found — set env var or .streamlit/secrets.toml")
 
