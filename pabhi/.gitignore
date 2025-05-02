@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# Model files
+*.pkl
+
+# Data files
+*.csv
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/ 
